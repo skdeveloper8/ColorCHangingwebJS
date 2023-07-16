@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   
+    background-color: rgb(31, 24, 24);
+    color: black;
+}
+h1{
+   text-align: center;
+   padding-top: 3rem;
+   
+}
+div{
+    display: flex;
+    margin-top: 3rem;
+     
+    padding-left: 5rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    /* width: 20%; */
+    height: 5rem;
+      flex-wrap: wrap;
+   
+
+}
+.button{
+    opacity: 0.5;
+}
+.button:hover{
+    cursor:cell;
+    opacity: 1;
+}
